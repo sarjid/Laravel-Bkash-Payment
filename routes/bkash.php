@@ -1,12 +1,8 @@
 <?php
 
-
-
-use App\Http\Controllers\BkashPaymentController;
-use App\Http\Controllers\BkashRefundController;
+use App\Http\Controllers\Payment\BkashPaymentController;
+use App\Http\Controllers\Payment\BkashRefundController;
 use Illuminate\Support\Facades\Route;
-
-
 
 // Payment Routes for bKash
 Route::controller(BkashPaymentController::class)
